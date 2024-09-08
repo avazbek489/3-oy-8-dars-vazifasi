@@ -33,7 +33,7 @@ h1 {
     height: 62px;
 }
 
-.hero-info a{
+.hero-info a {
     font-family: "PT Sans";
     font-size: 15px;
     font-weight: 700;
@@ -44,3 +44,127 @@ h1 {
     border-bottom: 3px solid #FFCE50;
 }
 
+/* FEATURES QISMI */
+.features {
+    margin-bottom: 57px;
+}
+
+.feat__container {
+    width: 345px;
+    height: 638px;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    border-radius: 20px;
+    margin-top: 56px;
+    padding: 24px 27px 32px 32px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.feat-services img {
+    width: 68px;
+    height: 68px;
+}
+
+.feat-services p {
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+    color: #6B6B6C;
+    width: 286px;
+    height: 39px;
+}
+
+.feat-services {
+    width: 286px;
+    height: 178px;
+}
+
+.feat-services h4 {
+    font-family: "Exo 2";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.3px;
+    text-align: left;
+    color: #363636;
+
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+
+/* MASKING QISMI */
+
+.mask {
+    margin-bottom: 72px;
+}
+
+.masking {
+    background-image: unset;
+}
+
+.masking-title h2 {
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #363738;
+}
+
+/* LAST QISMI */
+
+.last__container {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.last-team {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.last-team__private {
+    width: 447px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.last--private img {
+    width: 52px;
+    height: 52px;
+}
+
+.last--team_bot {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.last--team_bot h5 {
+    font-family: "Exo 2";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.3px;
+    text-align: left;
+    color: #363738;
+}
+
+.last--team_bot p {
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+    color: #6B6B6C;
+}

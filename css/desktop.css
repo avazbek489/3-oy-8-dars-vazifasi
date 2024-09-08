@@ -132,7 +132,7 @@ h1 {
 
 /* LAST QISMI */
 
-.last{
+.last {
     margin-bottom: 50px;
 }
 
@@ -157,25 +157,395 @@ h1 {
     gap: 40px;
 }
 
-.last--team_bot{
+.last--team_bot {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.last--team_bot h5{
+
+.last--team_bot h5 {
     font-family: "Exo 2";
-font-size: 20px;
-font-weight: 600;
-line-height: 27px;
-text-align: left;
-color: #363738;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #363738;
 }
 
-.last--team_bot p{
+.last--team_bot p {
     font-family: "PT Sans";
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-color: #6B6B6C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6C;
+}
+
+/* RESPONSIVE DIZAYN QISMI */
+
+@media (max-width: 1140px) {}
+
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+
+    /* HERO QISMI */
+
+    .hero__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 73px;
+    }
+
+    .hero-info {
+        text-align: center;
+    }
+
+    h1 {
+        font-family: "Exo 2";
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 55px;
+        text-align: center;
+        color: #363738;
+        margin-bottom: 49px;
+    }
+
+    .hero-info p {
+        width: 690px;
+        height: 65px;
+        margin-bottom: 44px;
+        font-family: "PT Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #6B6B6C;
+    }
+
+    .hero-info a {
+        font-family: "PT Sans";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        color: #363738;
+        border-bottom: 3px solid #FFCE50;
+    }
+
+    .hero-image img {
+        width: 690px;
+        height: 314px;
+    }
+
+    /* FEATURES QISMI */
+    .feat__container {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .features {
+        margin-bottom: 97px;
+        margin-top: 41px;
+    }
+
+    .feat-desk {
+        display: flex;
+        flex-direction: column;
+        width: 410px;
+
+    }
+
+    .feat-services {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        width: 690px;
+        height: 164px;
+        border-radius: 20px;
+
+        box-shadow: 0px 4px 15px 0px #0000001F;
+        padding: 32px;
+    }
+
+    /* MASKING QISMI */
+
+    .mask {
+        margin-top: 350px;
+        margin-bottom: 73px;
+    }
+
+    .masking {
+        margin-bottom: 48px;
+        background-image: url("../images/tablet-bac-img.png");
+        background-repeat: no-repeat;
+    }
+
+    .masking-title {
+        width: 600px;
+        height: 383px;
+        background-color: #0b7572;
+        clip-path: polygon(0 0, 45% 0, 100% 100%, 0% 100%);
+        padding-top: 112px;
+        padding-left: 85px;
+    }
+
+    .masking-title h2 {
+        font-family: "Exo 2";
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: left;
+        color: #ffffff;
+
+        width: 288px;
+    }
+
+    /* LAST QISMI */
+
+    .last__container {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .last-team {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .last-team__private {
+        width: 447px;
+        height: 80px;
+
+        display: flex;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .last--private img {
+        width: 89.25px;
+        height: 88px;
+    }
+
+    .last--team_bot {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .last--team_bot h5 {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        text-align: left;
+        color: #363738;
+    }
+
+    .last--team_bot p {
+        font-family: "PT Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #6B6B6C;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* HERO QISMI */
+
+    .hero__container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    h1 {
+        font-family: "Exo 2";
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 35px;
+        text-align: left;
+        color: #363636;
+
+        width: 344px;
+    }
+
+    .hero-image img {
+        width: 345px;
+        height: 253px;
+
+
+    }
+
+    .hero-info p {
+        font-family: "PT Sans";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+        text-align: left;
+        color: #363738;
+        margin-bottom: 32px;
+        margin-top: 32px;
+
+        width: 344px;
+        height: 62px;
+    }
+
+    .hero-info a {
+        font-family: "PT Sans";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 22.5px;
+        text-align: left;
+        color: #000000;
+
+        border-bottom: 3px solid #FFCE50;
+    }
+
+    /* FEATURES QISMI */
+    .features {
+        margin-bottom: 57px;
+    }
+
+    .feat__container {
+        width: 345px;
+        height: 638px;
+        box-shadow: 0px 4px 20px 0px #00000026;
+        border-radius: 20px;
+        margin-top: 56px;
+        padding: 24px 27px 32px 32px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+    }
+
+    .feat-services img {
+        width: 68px;
+        height: 68px;
+        text-align: left;
+    }
+
+    .feat-services p {
+        font-family: "PT Sans";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+        text-align: left;
+        color: #6B6B6C;
+        width: 286px;
+        height: 39px;
+    }
+
+    .feat-services {
+        width: 286px;
+        height: 178px;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feat-services h4 {
+        font-family: "Exo 2";
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24.3px;
+        text-align: left;
+        color: #363636;
+
+        margin-top: 16px;
+        margin-bottom: 12px;
+    }
+
+
+    /* MASKING QISMI */
+
+    .mask {
+        margin-top: -190px;
+        margin-bottom: -100px;
+    }
+
+    .masking-title {
+        background: none;
+
+    }
+
+    .masking {
+        background-image: unset;
+    }
+
+    .masking-title h2 {
+        font-family: "Exo 2";
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: left;
+        color: #363738;
+    }
+
+    /* LAST QISMI */
+
+    .last__container {
+        display: flex;
+        flex-direction: column;
+        gap: 38px;
+    }
+
+    .last-team {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 38px;
+    }
+
+    .last-team__private {
+        width: 447px;
+        height: 80px;
+
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .last--private img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .last--team_bot {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .last--team_bot h5 {
+        font-family: "Exo 2";
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24.3px;
+        text-align: left;
+        color: #363738;
+    }
+
+    .last--team_bot p {
+        font-family: "PT Sans";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+        text-align: left;
+        color: #6B6B6C;
+    }
 }
