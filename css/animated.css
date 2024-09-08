@@ -1,36 +1,79 @@
 @import url("./fonts.css");
 @import url("./normalize.css");
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
+    position: relative;
+    overflow: hidden;
+
 }
 
-li{
+/* ANIMATSIYA QISMI */
+@keyframes underline-animation {
+    0% {
+        width: 0;
+        transform: translateX(-100%);
+    }
+
+    50% {
+        width: 100%;
+        transform: translateX(0);
+    }
+
+    100% {
+        width: 0;
+        transform: translateX(100%);
+    }
+}
+
+a:hover:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #e74c3c;
+    transition: width 0.4s;
+    animation: underline-animation 1s infinite;
+}
+
+a:hover::before {
+    width: 100%;
+    animation: underline-animation 1s infinite;
+}
+
+
+li {
     list-style: none;
 }
 
-body{
-    font-family: 'Exo 2','PT Sans',sans-serif;
+body {
+    font-family: 'Exo 2', 'PT Sans', sans-serif;
 }
 
-.container-desktop{
+.container {
     max-width: 1240px;
     width: 100%;
     margin: 0 auto;
+
+    padding: 0 15px;
 }
 
 
-.container-tablet{
+.container-tablet {
     max-width: 768px;
     width: 100%;
     margin: 0 auto;
 }
 
-.container-mobile{
+.container-mobile {
     max-width: 576px;
     width: 100%;
     margin: 0 auto;

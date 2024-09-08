@@ -35,12 +35,83 @@ h1 {
     color: #6B6B6C;
 }
 
-.hero-info a{
+.hero-info a {
     font-family: "PT Sans";
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-text-align: left;
-color: #363738;
-border-bottom: 3px solid #FFCE50;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #363738;
+    border-bottom: 3px solid #FFCE50;
+}
+
+.hero-image img {
+    width: 690px;
+    height: 314px;
+}
+
+/* FEATURES QISMI */
+.feat__container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.features {
+    margin-bottom: 97px;
+    margin-top: 41px;
+}
+
+.feat-desk {
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+
+}
+
+.feat-services {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    width: 690px;
+    height: 164px;
+    border-radius: 20px;
+
+    box-shadow: 0px 4px 15px 0px #0000001F;
+    padding: 32px;
+}
+
+/* MASKING QISMI */
+
+.mask {
+    margin-top: 67px;
+    margin-bottom: 73px;
+}
+
+.masking {
+    margin-bottom: 48px;
+    background-image: url("../images/tablet-bac-img.png");
+    background-repeat: no-repeat;
+}
+
+.masking-title {
+    width: 600px;
+    height: 383px;
+    background-color: #0b7572;
+    clip-path: polygon(0 0, 45% 0, 100% 100%, 0% 100%);
+    padding-top: 112px;
+    padding-left: 85px;
+}
+
+.masking-title h2 {
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #ffffff;
+
+    width: 288px;
 }
