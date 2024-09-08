@@ -456,6 +456,7 @@ h1 {
         box-shadow: none;
         display: flex;
         flex-direction: column;
+        border: none;
     }
 
     .feat-services h4 {
