@@ -115,3 +115,56 @@ h1 {
 
     width: 288px;
 }
+
+/* LAST QISMI */
+
+.last__container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.last-team {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.last-team__private {
+    width: 447px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.last--private img {
+    width: 89.25px;
+    height: 88px;
+}
+
+.last--team_bot {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.last--team_bot h5 {
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #363738;
+}
+
+.last--team_bot p {
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6C;
+}
