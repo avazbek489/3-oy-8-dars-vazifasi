@@ -1,0 +1,46 @@
+@import url("./animated.css");
+
+/* HERO QISMI */
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 73px;
+}
+
+.hero-info {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Exo 2";
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55px;
+    text-align: center;
+    color: #363738;
+    margin-bottom: 49px;
+}
+
+.hero-info p {
+    width: 690px;
+    height: 65px;
+    margin-bottom: 44px;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #6B6B6C;
+}
+
+.hero-info a{
+    font-family: "PT Sans";
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #363738;
+border-bottom: 3px solid #FFCE50;
+}

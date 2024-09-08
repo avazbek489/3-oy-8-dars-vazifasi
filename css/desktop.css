@@ -1,2 +1,91 @@
-@import url("./animated.css");
+@import url('./animated.css');
 
+/* HERO QISMI */
+
+.hero {
+    margin-top: 109px;
+    margin-bottom: 67px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+h1 {
+    font-family: "Exo 2";
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: left;
+    color: #363738;
+}
+
+.hero-info p {
+    width: 520px;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 40px;
+    color: #6B6B6C;
+}
+
+
+
+.hero-info a {
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #363738;
+    margin-top: 40px;
+    border-bottom: 3px solid #FFCE50;
+}
+
+
+/* FEATURES QISMI*/
+
+.feat__container {
+    height: 341px;
+
+    margin-bottom: 67px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 80px;
+}
+
+.feat-services h4 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #363738;
+}
+
+.feat-services {
+    width: 228px;
+    height: 245px;
+
+    border-right:1px solid #D7D7DD;
+}
+
+.feat-services p {
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6C;
+}
