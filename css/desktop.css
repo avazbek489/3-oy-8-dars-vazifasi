@@ -183,10 +183,84 @@ h1 {
 
 /* RESPONSIVE DIZAYN QISMI */
 
-@media (max-width: 1140px) {}
+@media (max-width: 1140px) {
+    /* HERO QISMI */
+    h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
 
+    .hero-info p {
+        font-size: 15px;
+        line-height: 22px;
+    }
 
-@media (max-width: 992px) {}
+    .feat__container {
+        padding: 40px 70px;
+    }
+
+    .feat-services h4 {
+        font-size: 18px;
+    }
+
+    .feat-services p {
+        font-size: 15px;
+    }
+
+    .masking-title h2 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    /* LAST QISMI */
+    .last--team_bot h5 {
+        font-size: 18px;
+    }
+
+    .last--team_bot p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* HERO QISMI */
+    h1 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    .hero-info p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .feat__container {
+        padding: 30px 60px;
+    }
+
+    .feat-services h4 {
+        font-size: 16px;
+    }
+
+    .feat-services p {
+        font-size: 14px;
+    }
+
+    .masking-title h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    /* LAST QISMI */
+    .last--team_bot h5 {
+        font-size: 16px;
+    }
+
+    .last--team_bot p {
+        font-size: 14px;
+    }
+}
+
 
 @media (max-width: 768px) {
 
