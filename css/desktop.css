@@ -422,15 +422,7 @@ h1 {
     .feat__container {
         width: 345px;
         height: 638px;
-        box-shadow: 0px 4px 20px 0px #00000026;
-        border-radius: 20px;
-        margin-top: 56px;
         padding: 24px 27px 32px 32px;
-
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
-
     }
 
     .feat-services img {
